@@ -52,3 +52,4 @@ All details were stored in Redux and refreshing of page will lose all saved data
 
 # Mock data
 Mock data for products and user accounts are present in src/mocks.
+# LoganathanNN_FrontEnd_Developer
