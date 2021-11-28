@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Decathlon coding assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Checkout project from GIT repo shared.
 
-## Available Scripts
+Pre-requisite to run application --> Node
 
-In the project directory, you can run:
+# Install & Run App
+Open terminal and run command <npm i && npm run start> to install and run application.
 
-### `npm start`
+# Pages:
+1.) Discovery/ Home page: localhost:3000/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.) Login: localhost:3000/login
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3.) Checkout: localhost:3000/checkout (Authentication required. If not logged in, login screen will be shown).
 
-### `npm test`
+4.) My Account/ Saved orders: localhost:3000/account (Authentication required. If not logged in, login screen will be shown).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Test accounts:
+1.) john.doe@nightpoint.in/ john.doe
 
-### `npm run build`
+2.) michael.zeperlin@nightpoint.in/ michael.zeperlin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.) daniel.schwarzl@nightpoint.in/ daniel.schwarzl
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Checkout flow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.) Go to home page & add products to cart.
+Note: Products added to cart can't be added again.
 
-### `npm run eject`
+2.) Click Cart link in navigation bar and head to checkout page.
+use one of above shared test accounts to login into the app.
+Invalid credentials will not allow user to submit order.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3.) Checkout page
+Add/ remove quantity of products chosen.
+Minimum quantity is 1 & '-' button will be disabled if the quantity is 1.
+Delete product from cart by clicking on the trash icon.
+Floating cart component --> summarize the price breakdown.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Submit order
+Click on submit order --> order successfully saved and user will be auto directed back to home page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My Account & Saved orders:
+To view the account details, order details go to Account page(in nav bar). --> localhost:3000/account
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4.) Head back to checkout page and empty cart message will be shown.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Note
+All details were stored in Redux and refreshing of page will lose all saved data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Mock data
+Mock data for products and user accounts are present in src/mocks.

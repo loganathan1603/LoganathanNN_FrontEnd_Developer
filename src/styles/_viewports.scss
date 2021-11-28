@@ -1,0 +1,46 @@
+//breakpoints
+
+//mobile
+$XS-min: 320px;
+$XS-max: 767px;
+
+//Tablet(IPAD)
+$MD-min: 768px;
+$MD-max: 1023px;
+
+//Tablet(IPAD PRO)
+$LG-min: 1024px;
+$LG-max: 1439px;
+
+//Large desktops & above
+$XXL-min: 1440px;
+
+
+//viewport rule for XS
+@mixin viewport-xs {
+  @media screen and (min-width: #{$XS-min}) and (max-width: #{$XS-max}) {
+    @content;
+  }
+}
+
+//viewport rule for MD
+@mixin viewport-md {
+    @media screen and (min-width: #{$MD-min}) and (max-width: #{$MD-max}) {
+      @content;
+    }
+}
+
+
+//viewport rule for LG
+@mixin viewport-lg {
+    @media screen and (min-width: #{$LG-min}) and (max-width: #{$LG-max}) {
+      @content;
+    }
+}
+
+//viewport rule for XXL
+@mixin viewport-xxl {
+    @media screen and (min-width: #{$XXL-min}){
+      @content;
+    }
+}

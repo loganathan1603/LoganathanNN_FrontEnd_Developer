@@ -1,0 +1,94 @@
+@use '../../styles/global.scss';
+
+.cartItemsOverview{
+
+  .productDetails{
+    border: 1px solid global.$color-grey;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: global.$color-pure-white;
+    box-shadow: 0px 2px 17px -10px grey;
+    .image{
+      height: 80px;
+      width: 80px;
+      overflow: hidden;
+      border: 1px solid lightgrey;
+      border-radius: 4px;
+      padding: 2px;
+      img{
+        height: auto;
+        width: 100%;
+      }
+    }
+    .title{
+      font-size: 14px;
+      display: inline-block;
+      width: calc(100% - 10px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .manufacturer{
+      font-size: 12px;
+      color: gray;
+      font-weight: 500;
+    }
+    .removeProduct{
+      cursor: pointer;
+    }
+    .priceLabel{
+      font-size: 18px;
+      font-weight: 700;
+      text-align: right;
+    }
+    .quantityModifier{
+      display: inline-block;
+      margin-left: 10px;
+      .quantity{
+        margin: 0 8px;
+        font-weight: 700;
+      }
+      .button{
+        border:1px solid global.$color-default;
+        height: 28px;
+        font-weight: 700;
+        border-radius: 5px;
+        width: 28px;
+        display:inline-block;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        &.disabled{
+          pointer-events: none;
+        }
+      }
+    }
+  }
+  @include global.viewport-xs {
+      .productDetails{
+        .image{
+          height: 40px;
+          width: 40px;
+          display: flex;
+          align-items: center;
+        }
+        .priceLabel{
+          font-size: 15px;
+        }
+        .quantityModifier{
+          margin-left: 8px;
+          .quantity{
+            margin: 0 5px;
+            font-weight: 700;
+          }
+          .button{
+            border:1px solid global.$color-default;
+            height: 20px;
+            width: 20px;
+            font-size: 12px;
+          }
+        }
+      }
+  }
+}

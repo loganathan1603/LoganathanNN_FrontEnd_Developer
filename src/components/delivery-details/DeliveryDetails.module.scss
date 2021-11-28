@@ -1,0 +1,17 @@
+@use '../../styles/global.scss';
+
+.block{
+  background: global.$color-light-blue;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  .title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .content{
+    font-size: 14px;
+  }
+}

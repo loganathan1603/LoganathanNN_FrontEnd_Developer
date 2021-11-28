@@ -1,0 +1,19 @@
+@use '../../styles/global.scss';
+
+.block{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  .section{
+    text-align: left;
+    margin:10px 0;
+  }
+  .logo{
+    height:60px;
+    width: auto;
+    background: global.$color-app-theme;
+  }
+  @include global.viewport-xs {
+    width: 100%;
+  }
+}

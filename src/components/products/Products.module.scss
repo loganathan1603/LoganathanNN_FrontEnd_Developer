@@ -1,0 +1,49 @@
+@use '../../styles/global.scss';
+
+.productTitle{
+  font-size: 14px;
+  display: inline-block;
+  width: calc(100% - 10px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.categoryName{
+  font-size: 20px;
+  font-weight: 700;
+  color: global.$color-app-theme;
+  border-bottom: 1px solid global.$color-app-theme;;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.priceSection{
+  display: block;
+  font-size: 14px;
+  span{
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .highlightPrice{
+    background: global.$color-yellow;
+    color: global.$color-default;
+    font-weight: 700;
+    padding: 4px 8px;
+  }
+}
+
+.rating{
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 13px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+  .icon{
+    height: 13px;
+    width: 13px;
+    margin-left: 8px;
+    margin-top: 2px;
+    vertical-align: baseline;
+  }
+}

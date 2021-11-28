@@ -1,0 +1,91 @@
+@use '../../styles/global.scss';
+
+.block{
+  background: global.$color-app-theme;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 2;
+  .logo{
+      height: 50px;
+      width: 180px;
+      padding: 5px 10px;
+      border: 1px solid global.$color-pure-white;
+      border-radius: 4px;
+      display: block;
+      transition: border 0.1s;
+      img{
+        height: auto;
+        width: 100%;
+      }
+      &:hover{
+        border: 2px solid global.$color-pure-white;
+        overflow: hidden;
+      }
+  }
+  .iconContainer{
+    text-align: right;
+    .icon{
+      margin-right: 15px;
+      display: inline-block;
+      min-width: 80px;
+      text-align: center;
+      position: relative;
+      img{
+        height: 28px;
+        width: 28px;
+      }
+      span{
+        color: global.$color-pure-white;
+        font-size: 13px;
+        font-weight: 500;
+        display: block;
+        margin-top: 5px;
+      }
+      .cartItems{
+        background: global.$color-yellow;
+        color: global.$color-default;
+        text-decoration: none !important;
+        position: absolute;
+        top: -13px;
+        right: 14px;
+        /* padding: 5px; */
+        border-radius: 40px;
+        height: 21px;
+        width: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+  @include global.viewport-xs {
+    height: 70px;
+    .logo{
+        height: 40px;
+        width: 140px;
+        padding: 4px 8px;
+    }
+    .iconContainer{
+      .icon{
+        margin-right: 8px;
+        display: inline-block;
+        min-width: 40px;
+        text-align: center;
+        img{
+          height: 30px;
+          width: 30px;
+        }
+        span{
+          display: none;
+        }
+      }
+  }
+}
+}

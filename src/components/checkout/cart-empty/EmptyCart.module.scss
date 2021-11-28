@@ -1,0 +1,15 @@
+@use '../../../styles/global.scss';
+
+.block{
+  text-align: center;
+  img{
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  @include global.viewport-xs {
+    img{
+      width: 200px;
+    }
+  }
+}

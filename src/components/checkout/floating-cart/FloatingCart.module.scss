@@ -1,0 +1,37 @@
+@use '../../../styles/global.scss';
+
+
+.floatingCart{
+  border: 1px solid global.$color-grey;
+  background: global.$color-pure-white;
+  box-shadow: 0px 2px 17px -10px grey;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  .title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: global.$color-app-theme;
+    color: global.$color-pure-white;
+    padding: 10px;
+  }
+  .body{
+    padding: 0 10px 10px;
+    font-size: 14px;
+    .priceLabelSection{
+      margin-bottom: 4px;
+    }
+    .sectionTitle{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .totalCostSection{
+      border-top: 1px solid grey;
+      margin-top: 10px;
+      padding: 5px 0;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+}

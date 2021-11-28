@@ -1,0 +1,149 @@
+[
+  {
+    "category": "Cricket",
+    "products": [
+      {
+        "skuId": "DC-001",
+        "title": "KIDS KASHMIR WILLOW CRICKET BAT KW 100 LITE JR RED",
+        "manufacturer": "FLX",
+        "image": "products/cric-1.webp",
+        "actualPrice": 800,
+        "discount": 100,
+        "sellingPrice": 700,
+        "tag": "",
+        "rating": "4.3"
+      },
+      {
+        "skuId": "DC-002",
+        "title": "CRICKET WICKET AND STUMP SET, PLASTIC, RED",
+        "manufacturer": "FLX",
+        "image": "products/cric-2.webp",
+        "actualPrice": 599,
+        "discount": 100,
+        "sellingPrice": 499,
+        "tag": "",
+        "rating": "4.1"
+      },
+      {
+        "skuId": "DC-003",
+        "title": "TENNIS BALL",
+        "manufacturer": "FLX",
+        "image": "products/cricket-ball.webp",
+        "actualPrice": 280,
+        "discount": 100,
+        "sellingPrice": 180,
+        "tag": "",
+        "rating": "3.2"
+      },
+      {
+        "skuId": "DC-004",
+        "title": "ADULT ADVANCED TENNIS BALL CRICKET BAT T 900 ULTRALITE BLUE",
+        "manufacturer": "FLX",
+        "image": "products/cricket-bat.webp",
+        "actualPrice": 688,
+        "discount": 100,
+        "sellingPrice": 588,
+        "tag": "",
+        "rating": "4.6"
+      }
+    ]
+  },
+  {
+    "category": "Running",
+    "products": [
+      {
+        "skuId": "DC-005",
+        "title": "MEN'S RUNNING SHOES KALENJI RUN 100 - GREY",
+        "manufacturer": "KALENJI",
+        "image": "products/running-1.webp",
+        "actualPrice": 699,
+        "discount": 0,
+        "sellingPrice": 699,
+        "tag": "",
+        "rating": "4.4"
+      },
+      {
+        "skuId": "DC-006",
+        "title": "RUN ACTIVE MEN'S RUNNING SHOES - BLACK",
+        "manufacturer": "KALENJI",
+        "image": "products/running-2.webp",
+        "actualPrice": 699,
+        "discount": 100,
+        "sellingPrice": 599,
+        "tag": "",
+        "rating": "4.4"
+      },
+      {
+        "skuId": "DC-007",
+        "title": "MEN'S RUNNING SHOES RUN SUPPORT - WHITE",
+        "manufacturer": "KALENJI",
+        "image": "products/running-3.webp",
+        "actualPrice": 899,
+        "discount": 150,
+        "sellingPrice": 749,
+        "tag": "",
+        "rating": "4.6"
+      },
+      {
+        "skuId": "DC-008",
+        "title": "MEN'S RUNNING SHOES RUN ACTIVE GRIP - BLACK GREY",
+        "manufacturer": "KALENJI",
+        "image": "products/running-4.webp",
+        "actualPrice": 899,
+        "discount": 150,
+        "sellingPrice": 749,
+        "tag": "",
+        "rating": "4.3"
+      }
+    ]
+  },
+  {
+    "category": "Clearance Sale",
+    "products": [
+      {
+        "skuId": "DC-009",
+        "title": "Adult Germany football jersey Away - Black",
+        "manufacturer": "KIPSTA",
+        "image": "products/football-1.webp",
+        "actualPrice": 699,
+        "discount": 300,
+        "sellingPrice": 399,
+        "tag": "",
+        "rating": "4.7"
+      },
+      {
+        "skuId": "DC-010",
+        "title": "Adult France football jersey - Navy Blue",
+        "manufacturer": "KIPSTA",
+        "image": "products/football-2.webp",
+        "actualPrice": 699,
+        "discount": 300,
+        "sellingPrice": 399,
+        "tag": "",
+        "rating": "4.7"
+      },
+      {
+        "skuId": "DC-011",
+        "title": "Adult England football jersey - White",
+        "manufacturer": "KIPSTA",
+        "image": "products/football-3.webp",
+        "actualPrice": 699,
+        "discount": 300,
+        "sellingPrice": 399,
+        "tag": "",
+        "rating": "4.7"
+      },
+      {
+        "skuId": "DC-012",
+        "title": "Adult Portugal Football Jersey - Red",
+        "manufacturer": "KIPSTA",
+        "image": "products/football-4.webp",
+        "actualPrice": 699,
+        "discount": 300,
+        "sellingPrice": 399,
+        "tag": "",
+        "rating": "4.7"
+      }
+    ]
+  }
+]

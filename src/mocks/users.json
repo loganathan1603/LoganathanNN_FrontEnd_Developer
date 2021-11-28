@@ -1,0 +1,23 @@
+[
+  {
+    "username" : "john.doe@nightpoint.in",
+    "password": "john.doe",
+    "fullName": "John Doe",
+    "mobileNumber": "+91 9823483434",
+    "address": "23A, XXX, YYY, ZZZ - 8051"
+  },
+  {
+    "username" : "michael.zeperlin@nightpoint.in",
+    "password": "michael.zeperlin",
+    "fullName": "Michael Zeperlin",
+    "mobileNumber": "+91 9823483434",
+    "address": "23A, XXX, YYY, ZZZ - 8052"
+  },
+  {
+    "username" : "daniel.schwarzl@nightpoint.in",
+    "password": "daniel.schwarzl",
+    "fullName": "Daniel Schwarzl",
+    "mobileNumber": "+91 9823483434",
+    "address": "23A, XXX, YYY, ZZZ - 8053"
+  }
+]
