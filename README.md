@@ -38,10 +38,10 @@ Minimum quantity is 1 & '-' button will be disabled if the quantity is 1.
 Delete product from cart by clicking on the trash icon.
 Floating cart component --> summarize the price breakdown.
 
-## Submit order
+### Submit order
 Click on submit order --> order successfully saved and user will be auto directed back to home page.
 
-## My Account & Saved orders:
+### My Account & Saved orders:
 To view the account details, order details go to Account page(in nav bar). --> localhost:3000/account
 
 4.) Head back to checkout page and empty cart message will be shown.
@@ -52,4 +52,3 @@ All details were stored in Redux and refreshing of page will lose all saved data
 
 # Mock data
 Mock data for products and user accounts are present in src/mocks.
-# LoganathanNN_FrontEnd_Developer
