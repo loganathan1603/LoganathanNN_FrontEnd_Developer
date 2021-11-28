@@ -16,6 +16,26 @@
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+.imageSection{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &.addPadding{
+    padding: 10px;
+    img{
+      height: 160px;
+      width: 160px;
+    }
+  }
+  img{
+    height: auto;
+    width: 100%;
+  }
+}
 .priceSection{
   display: block;
   font-size: 14px;

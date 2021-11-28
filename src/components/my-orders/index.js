@@ -19,7 +19,7 @@ export default function MyOrders(){
   return(
     <div className={Style.block}>
       <DeliveryDetails type='PROFILE'/>
-      <div className={Style.title}>My Orders</div>
+      <div className='block-title'>My Orders</div>
       {cart && cart.hasOwnProperty('orders') && cart.orders.length > 0 ? (
         <>
         {cart.orders.reverse().map(order => (
@@ -44,7 +44,7 @@ export default function MyOrders(){
               </div>
             ))}
             <div className={Style.orderSummary}>
-              <div className={Style.title}> Order Summary</div>
+              <div className='content-title'> Order Summary</div>
               <div className='row'>
                 <div className={`${Style.label} col-8 col-md-4`}>
                   Product cost (incl GST):

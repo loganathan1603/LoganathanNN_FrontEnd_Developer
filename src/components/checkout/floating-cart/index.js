@@ -13,7 +13,7 @@ export default function FloatingCart({items}){
       <div className={Style.floatingCart}>
         <div className={Style.title}>Shopping cart</div>
         <div className={Style.body}>
-          <div className={`${Style.sectionTitle} mar-bt-10`}>Order Summary</div>
+          <div className={`mar-bt-10 content-title`}>Order Summary</div>
           <div className={`row ${Style.priceLabelSection}`}>
             <div className={`col-8`}>
               Total products (incl GST)
@@ -39,7 +39,7 @@ export default function FloatingCart({items}){
             </div>
           </div>
           <div className={Style.totalCostSection}>
-            <div className={`row ${Style.priceLabelSection}`}>
+            <div className={`row content-title ${Style.priceLabelSection}`}>
                 <div className={`col-8`}>
                   Total
                 </div>

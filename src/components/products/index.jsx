@@ -56,7 +56,9 @@ function ProductItem({product, store}){
 
   return(
     <Card style={{ width: '18rem' }} style={{width:'100%'}}>
-      <img className='lozad' data-src={`/${product.image}`} alt={product.title}/>
+      <div className={`${Style.imageSection} ${product.imagePadding && Style.addPadding}`}>
+        <img className='lozad' data-src={`/${product.image}`} alt={product.title}/>
+      </div>
       <Card.Body>
         <Card.Title>
           <span className={Style.productTitle}>{product.title}</span>
